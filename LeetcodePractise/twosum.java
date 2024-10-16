@@ -20,7 +20,7 @@ public class twosum {
             }
             
         }
-        System.out.println("not found");
+        
     }
     
 
