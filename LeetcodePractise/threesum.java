@@ -1,6 +1,8 @@
+package LeetcodePractise;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 
 //Given an array nums, return all unique triplets [nums[i], nums[j], nums[k]] such that they add up to zero.
 public class threesum {
