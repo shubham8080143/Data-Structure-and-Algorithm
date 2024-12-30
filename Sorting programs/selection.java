@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class selection {
-    void main(String[] args){
+   public  static  void main(String[] args){
         int[] a={9,8,7,6,5,4,3,2,1};
         for(int i=0;i<a.length-1;i++){
             int current=i;
