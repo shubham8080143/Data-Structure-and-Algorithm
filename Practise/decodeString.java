@@ -3,6 +3,8 @@ import java.util.*;
 
 public class decodeString {
     public static void main(String[] args) {
+        String str="3[a2[c]]";
+        System.out.println(Decode(str));
         
     }
     static String Decode(String str){
@@ -24,8 +26,16 @@ public class decodeString {
                 characters.push(ch);
                 k=0;
                 current =new StringBuilder();
-            }else if()
+            }else if(ch == ']'){
+                int times = repeat.pop();
+                StringBuilder temp =new StringBuilder();
+                for(int j=0;j<times;j++){
+                    temp.append(current);
+                }
+                current = new StringBuilder(characters.pop().toString() + temp);
 
         }
     }
-}
+
+    return current.toString();
+       }   }
